@@ -27,7 +27,8 @@ Supplies beautifully designed reuseable react components. Design is cosely relat
 
 We will have to follow the installtion instructions and put the chakra provider into the root of our application.
 
-
+### React Icons
+This project uses the react-icons library
 
 ### React + TypeScript + Vite
 
