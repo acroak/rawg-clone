@@ -14,12 +14,20 @@ Make a clone of the popular game search site [rawg.io](https://rawg.io/).
 `npm i`
 `npm run dev`
 
+## API
+We are using the rawg.io API. documentation can be found [here](https://rawg.io/apidocs).
+
+### Axios
+This project will be using axios to create HTTP Requests to rawg API endpoints
+
 ### Chakra UI
 [Chakra UI](https://v2.chakra-ui.com/)
 
 Supplies beautifully designed reuseable react components. Design is cosely related to how the site we are cloning already looks.
 
 We will have to follow the installtion instructions and put the chakra provider into the root of our application.
+
+
 
 ### React + TypeScript + Vite
 
