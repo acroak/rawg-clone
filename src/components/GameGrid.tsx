@@ -12,6 +12,7 @@ interface Props {
 
 const GameGrid = ({ selectedGenre }: Props) =>{
 
+    // useGames of either null/all value or a specified genre from a selction in the sidebar of app
     const { data, error, isLoading} = useGames(selectedGenre);
     const skeletons = [1,2,3,4,5,6];
 

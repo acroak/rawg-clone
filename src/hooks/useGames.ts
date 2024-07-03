@@ -15,7 +15,7 @@ export interface Game {
     metacritic: number;
 }
 
-
+// if a genre is selected we send it to the games hook as an optional parameter (genre or null)
 const useGames = (selectedGenre: Genre | null) => useData<Game>('/games', {params: {genres: selectedGenre?.id}}, [selectedGenre?.id]);
 
 

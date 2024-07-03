@@ -26,7 +26,7 @@ function App() {
             <Show above="lg">
                 <GridItem area='aside' paddingX={5}>
                     {/* onSelectGenre  gets notified by genrelist that a genre is selected and we update the selector value, causing the component to re-render and send the data to the gameGrid selectedGenre prop*/}
-                    <GenreList onSelectGenre={(genre) => setSelectedGenre(genre)}/>
+                    <GenreList onSelectGenre={(genre) => setSelectedGenre(genre)} selectedGenre={selectedGenre}/>
                 </GridItem>
             </Show>
             <GridItem area='main'>
