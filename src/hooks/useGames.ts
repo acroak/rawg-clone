@@ -13,6 +13,7 @@ export interface Game {
     background_image: string;
     parent_platforms: {platform: Platform }[];
     metacritic: number;
+    rating_top: number;
 }
 
 // if a genre is selected we send it to the games hook as an optional parameter (genre or null)
